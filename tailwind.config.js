@@ -1,3 +1,5 @@
+import config from './postcss.config.mjs';
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -15,4 +17,6 @@ module.exports = {
     },
   },
   plugins: [],
+  darkMode: "class",
 };
+export default config
