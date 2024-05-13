@@ -18,6 +18,12 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 3s linear infinite',
         'expande': 'transition delay-150 duration-300 ease-in-out',
+      },
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(255,255, 255, 0.35)",
+          "0 0px 65px rgba(255, 255,255, 0.2)"
+        ]
       }
     },
   },
