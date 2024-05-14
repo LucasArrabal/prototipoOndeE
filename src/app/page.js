@@ -1,6 +1,5 @@
-import Image from "next/image";
-import SectionFirst from "./Sections/SectionFirst";
-import SectionContato from "./Sections/SectionContato";
+import SectionFirst from "../Components/Sections/SectionFirst";
+import SectionContato from "../Components/Sections/SectionContato";
 
 
 export default function Home() {
